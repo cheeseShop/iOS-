@@ -12,6 +12,8 @@
 		F00D175720603AB1004DD85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00D175520603AB1004DD85B /* Main.storyboard */; };
 		F00D175920603AB1004DD85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00D175820603AB1004DD85B /* Assets.xcassets */; };
 		F00D175C20603AB1004DD85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00D175A20603AB1004DD85B /* LaunchScreen.storyboard */; };
+		F00D1765206053D0004DD85B /* Concetration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D1764206053D0004DD85B /* Concetration.swift */; };
+		F00D17672060548B004DD85B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D17662060548B004DD85B /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F00D175820603AB1004DD85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F00D175B20603AB1004DD85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F00D175D20603AB1004DD85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00D1764206053D0004DD85B /* Concetration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concetration.swift; sourceTree = "<group>"; };
+		F00D17662060548B004DD85B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		F00D175020603AB0004DD85B /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				F00D175120603AB0004DD85B /* AppDelegate.swift */,
+				F00D176320604223004DD85B /* Support Files */,
 				F00D175320603AB1004DD85B /* ViewController.swift */,
+				F00D1764206053D0004DD85B /* Concetration.swift */,
+				F00D17662060548B004DD85B /* Card.swift */,
 				F00D175520603AB1004DD85B /* Main.storyboard */,
-				F00D175820603AB1004DD85B /* Assets.xcassets */,
-				F00D175A20603AB1004DD85B /* LaunchScreen.storyboard */,
 				F00D175D20603AB1004DD85B /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		F00D176320604223004DD85B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00D175120603AB0004DD85B /* AppDelegate.swift */,
+				F00D175820603AB1004DD85B /* Assets.xcassets */,
+				F00D175A20603AB1004DD85B /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00D175420603AB1004DD85B /* ViewController.swift in Sources */,
+				F00D1765206053D0004DD85B /* Concetration.swift in Sources */,
 				F00D175220603AB0004DD85B /* AppDelegate.swift in Sources */,
+				F00D17672060548B004DD85B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RYG3JLPB;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = simonludwig.Concentration;
@@ -289,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RYG3JLPB;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = simonludwig.Concentration;
