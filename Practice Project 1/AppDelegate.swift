@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Practice Project 1
-//
-//  Created by Simon Ludwig on 2/4/19.
-//  Copyright © 2019 Simon Ludwig. All rights reserved.
-//
 
 import UIKit
 
